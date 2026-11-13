@@ -6,7 +6,7 @@ pipeline{
     stages{
         stage("Clone Code from GitHub"){
             steps{
-                git url: "https://github.com/manish-mahalinge/mern-devsecops-pipeline.git", branch: "devops"
+                git url: "https://github.com/manish-mahalinge/mern-devsecops-pipeline.git", branch: "main"
             }
         }
         stage("SonarQube Quality Analysis"){
